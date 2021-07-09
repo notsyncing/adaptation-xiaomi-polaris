@@ -1,23 +1,23 @@
-Source: adaptation-google-sargo
-Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Source: adaptation-xiaomi-beryllium
+Maintainer: 1petro <petronazeh@gmail.com>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/adaptation-google-sargo
-Vcs-Git: https://github.com/droidian/adaptation-google-sargo.git
+Vcs-Browser: https://github.com/Unofficial-droidian-for-pocof1/adaptation-xiaomi-beryllium
+Vcs-Git: https://github.com/Unofficial-droidian-for-pocof1/adaptation-xiaomi-beryllium.git
 
-Package: adaptation-google-sargo
+Package: adaptation-xiaomi-beryllium
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-google-sargo,
+         linux-bootimage-xiaomi-beryllium,
          adaptation-hybris-api28-phone,
-         adaptation-google-sargo-configs,
-Description: adapatation-google-sargo - meta
- Google Pixel 3a api28 adaptation metapackage
+         adaptation-xiaomi-beryllium-configs,
+Description: adapatation-xiaomi-beryllium - meta
+ pocof1 api28 adaptation metapackage
 
-Package: adaptation-google-sargo-configs
+Package: adaptation-xiaomi-beryllium-configs
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-google-sargo (= ${binary:Version}),
-Description: Google Pixel 3a's specific adaptation configs
+         adaptation-xiaomi-beryllium (= ${binary:Version}),
+Description: pocof1 specific adaptation configs
