@@ -1,2 +1,2 @@
 etc/* /etc
-usr/* /usr
+var/* /var

@@ -1,0 +1,1 @@
+# Just present so /usr/bin/droid/bluebinder_post.sh dont fail. Bluetooth works fine without bluetooth address in this file.
