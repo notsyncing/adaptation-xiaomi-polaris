@@ -1,23 +1,22 @@
-Source: adaptation-xiaomi-beryllium
-Maintainer: 1petro <petronazeh@gmail.com>
+Source: adaptation-xiaomi-polaris
+Maintainer: notsyncing <song.fc@gmail.com>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/Unofficial-droidian-for-pocof1/adaptation-xiaomi-beryllium
-Vcs-Git: https://github.com/Unofficial-droidian-for-pocof1/adaptation-xiaomi-beryllium.git
+Vcs-Browser: https://github.com/notsyncing/adaptation-xiaomi-polaris
+Vcs-Git: https://github.com/notsyncing/adaptation-xiaomi-polaris.git
 
-Package: adaptation-xiaomi-beryllium
+Package: adaptation-xiaomi-polaris
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-xiaomi-beryllium,
-         adaptation-hybris-api28-phone,
-         adaptation-xiaomi-beryllium-configs,
-Description: adapatation-xiaomi-beryllium - meta
- pocof1 api28 adaptation metapackage
+         linux-bootimage-xiaomi-polaris,
+         adaptation-xiaomi-polaris-configs,
+Description: adapatation-xiaomi-polaris - meta
+ xiaomi mix 2s api30 adaptation metapackage
 
-Package: adaptation-xiaomi-beryllium-configs
+Package: adaptation-xiaomi-polaris-configs
 Architecture: all
 Depends: ${misc:Depends},
-         adaptation-xiaomi-beryllium (= ${binary:Version}),
-Description: pocof1 specific adaptation configs
+         adaptation-xiaomi-polaris (= ${binary:Version}),
+Description: xiaomi mix 2s specific adaptation configs
