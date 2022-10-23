@@ -21,3 +21,4 @@ Experimental.
     - Microphone
     - Speakers, headphones don't work
 - Haptics (vibration works)
+- Camera (front & rear, only through gst-droid)
