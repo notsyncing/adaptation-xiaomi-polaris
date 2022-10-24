@@ -1,1 +1,2 @@
-
+/usr/lib/adaptation-xiaomi-polaris/sources.list.d/community-xiaomi-polaris.list /etc/apt/sources.list.d/community-xiaomi-polaris.list
+/usr/lib/adaptation-xiaomi-polaris/trusted.gpg.d/community-xiaomi-polaris.gpg /etc/apt/trusted.gpg.d/community-xiaomi-polaris.gpg

@@ -2,21 +2,20 @@ Source: adaptation-xiaomi-polaris
 Maintainer: notsyncing <song.fc@gmail.com>
 Section: metapackages
 Priority: optional
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10),
+               debhelper-compat (= 13),
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/notsyncing/adaptation-xiaomi-polaris
 Vcs-Git: https://github.com/notsyncing/adaptation-xiaomi-polaris.git
 
 Package: adaptation-xiaomi-polaris
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
-         linux-bootimage-xiaomi-polaris,
-         adaptation-xiaomi-polaris-configs,
-Description: adapatation-xiaomi-polaris - meta
- xiaomi mix 2s api30 adaptation metapackage
+         adaptation-hybris-api30-phone,
+         adaptation-xiaomi-polaris-configs (= ${binary:Version}),
+Description: Community adaptation for xiaomi-polaris - metapackage
 
 Package: adaptation-xiaomi-polaris-configs
-Architecture: all
+Architecture: arm64
 Depends: ${misc:Depends},
-         adaptation-xiaomi-polaris (= ${binary:Version}),
-Description: xiaomi mix 2s specific adaptation configs
+Description: Community adaptation for xiaomi-polaris - adaptation configurations
