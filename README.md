@@ -19,6 +19,7 @@ Experimental.
 - Suspend and resume
 - Audio
     - Microphone
-    - Speakers, headphones don't work
+    - Speakers
+    - Headphones not tested
 - Haptics (vibration works)
 - Camera (front & rear, only through gst-droid)
