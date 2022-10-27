@@ -3,7 +3,6 @@ Maintainer: notsyncing <song.fc@gmail.com>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10),
-               debhelper-compat (= 13),
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/notsyncing/adaptation-xiaomi-polaris
 Vcs-Git: https://github.com/notsyncing/adaptation-xiaomi-polaris.git
